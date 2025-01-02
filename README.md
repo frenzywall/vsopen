@@ -9,13 +9,13 @@ A simple command-line tool to clone GitHub repositories and open them in VS Code
 pip install vsopen
 ```
 
-### From GitHub:
+# Install the package
+pip install --index-url https://maven.pkg.github.com/frenzywall/vsopen vsopen
+```
+
+### From GitHub repository:
 ```bash
 pip install git+https://github.com/frenzywall/vsopen.git
-
-git clone https://github.com/frenzywall/vsopen.git
-cd vsopen
-pip install .
 ```
 
 ## Usage
